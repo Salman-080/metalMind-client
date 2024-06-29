@@ -8,28 +8,36 @@ const Footer = () => {
             </div>
             <footer className="footer bg-white text-base-content py-10 space-x-16">
                 <nav className=" h-[100%] md:relative mx-auto md:mx-0" >
-                    <h6 className=" text-black font-normal text-base ml-1" >Site Name</h6>
-                    <div className="grid grid-flow-col gap-4 md:absolute md:bottom-0 ml-2">
+                    <h6 className=" text-black font-normal text-base ml-2" >Site Name</h6>
+                    <div className="grid grid-flow-col gap-4 md:absolute md:bottom-0 ml-3">
                         <a className="w-[20px] h-[20px] cursor-pointer">
-                        <FaFacebook className="w-full h-full" />
+                        <FaFacebook className="w-full h-full text-gray-600" />
 
                         </a>
                         <a className="w-[20px] h-[20px] cursor-pointer">
-                        <FaLinkedin className="w-full h-full" />
+                        <FaLinkedin className="w-full h-full text-gray-600" />
 
                         </a>
                         <a className="w-[20px] h-[20px] cursor-pointer">
-                        <FaYoutube className="w-full h-full" />
+                        <FaYoutube className="w-full h-full text-gray-600" />
 
                         </a>
                         <a className="w-[20px] h-[20px] cursor-pointer">
-                        <FaInstagram className="w-full h-full" />
+                        <FaInstagram className="w-full h-full text-gray-600" />
 
                         </a>
                      
                     </div>
                 </nav>
+                <br />
                 <nav className="space-y-2 ">
+                    <h6 className=" text-black font-semibold">Topic</h6>
+                    <a className="link link-hover text-gray-500 font-semibold">Page</a>
+                    <a className="link link-hover text-gray-500 font-semibold">Page</a>
+                    <a className="link link-hover text-gray-500 font-semibold">Page</a>
+                    <a className="link link-hover text-gray-500 font-semibold">Page</a>
+                </nav>
+                <nav className="space-y-2">
                     <h6 className=" text-black font-semibold">Topic</h6>
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
