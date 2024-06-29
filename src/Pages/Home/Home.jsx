@@ -9,7 +9,7 @@ const Home = () => {
 
             <div className=" space-y-4 mt-6 mx-auto">
                 <h2 className="text-[#E0B210] text-center text-2xl md:text-4xl font-bold ">MetalMind</h2>
-                <p className="text-center md:w-[500px]  mx-auto">Metal Mind Robotics Kit is an innovative platform designed to ignite creativity and cultivate a passion for robotics among enthusiasts of all ages. Whether you're a novice exploring the basics or an experienced tinkerer seeking to push the boundaries of technology, Metal Mind empowers you to bring your robotic visions to life.</p>
+                <p className="text-center md:w-[500px] text-gray-400  mx-auto">Metal Mind Robotics Kit is an innovative platform designed to ignite creativity and cultivate a passion for robotics among enthusiasts of all ages. Whether you're a novice exploring the basics or an experienced tinkerer seeking to push the boundaries of technology, Metal Mind empowers you to bring your robotic visions to life.</p>
             </div>
 
             <div className="w-[250px] h-[290px] md:w-[520px] md:h-[560px]  mx-auto" >
@@ -18,10 +18,10 @@ const Home = () => {
 
 
             <div className="space-y-2">
-                <h2 className="text-[#E0B210] text-3xl font-semibold">Reviews</h2>
+                <h2 className="text-[#E0B210] text-3xl font-semibold ml-1">Reviews</h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-7 md:px-0 gap-9">
-                    <div className="card bg-base-100 shadow-xl">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-7 md:px-3 gap-9">
+                    <div className="card bg-base-100 shadow-2xl">
                         <div className="card-body">
 
                             <p className="card-title">My kids love this. Best way to learn robotics and simple coding.</p>
@@ -31,13 +31,13 @@ const Home = () => {
                                     <img className="h-full w-full rounded-full" src="/avatar1.png" alt="" />
                                 </div>
                                 <div>
-                                    <h2>Cole</h2>
-                                    <p>Engineer</p>
+                                    <h2 className="font-semibold">Cole</h2>
+                                    <p className="text-gray-500 ">Engineer</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card bg-base-100 shadow-2xl">
                         <div className="card-body">
 
                             <p className="card-title">“A fantastic gift for my teen.”</p>
@@ -47,13 +47,13 @@ const Home = () => {
                                     <img className="h-full w-full rounded-full" src="/avatar1.png" alt="" />
                                 </div>
                                 <div>
-                                    <h2>Cole</h2>
-                                    <p>Engineer</p>
+                                    <h2 className="font-semibold">Aubrey</h2>
+                                    <p className="text-gray-500 ">Teacher</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card bg-base-100 shadow-2xl">
                         <div className="card-body">
 
                             <p className="card-title">“A genuinely glowing review”</p>
@@ -63,8 +63,8 @@ const Home = () => {
                                     <img className="h-full w-full rounded-full" src="/avatar1.png" alt="" />
                                 </div>
                                 <div>
-                                    <h2>Cole</h2>
-                                    <p>Engineer</p>
+                                    <h2 className="font-semibold">Rick</h2>
+                                    <p className="text-gray-500 ">Student</p>
                                 </div>
                             </div>
                         </div>
