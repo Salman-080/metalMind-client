@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className="max-w-screen-xl mx-auto">
-            <div className=" border-[1px] mt-14 border-gray-100">
+            <div className=" border-[1px] mt-14 border-gray-200">
 
             </div>
             <footer className="footer bg-white text-base-content py-10 space-x-16">
@@ -35,21 +35,21 @@ const Footer = () => {
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
-                    <a className="link link-hover text-gray-500 font-semibold">Page</a>
+                    
                 </nav>
                 <nav className="space-y-2">
                     <h6 className=" text-black font-semibold">Topic</h6>
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
-                    <a className="link link-hover text-gray-500 font-semibold">Page</a>
+                    
                 </nav>
                 <nav className="space-y-2">
                     <h6 className=" text-black font-semibold">Topic</h6>
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
                     <a className="link link-hover text-gray-500 font-semibold">Page</a>
-                    <a className="link link-hover text-gray-500 font-semibold">Page</a>
+                   
                 </nav>
                
                 
